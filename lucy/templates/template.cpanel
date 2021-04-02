@@ -1,0 +1,12 @@
+/home/user/ssl/ssl.db
+/home/user/ssl/ssl.db.cache
+/home/user/ssl/keys/id.key
+/home/user/ssl/csrs/hostname_com_id.csr
+/home/user/ssl/certs/hostname_com_id.crt
+/home/user/logs/ftp.domain.com-ftp_log-Mar-2021.gz
+/home/user/logs/domain.com-Mar-2021.gz
+/home/user/logs/domain.com-ssl_log-Mar-2021.gz
+/home/user/public_html
+/home/user/.mysql_backup/i3313_wp1.sql.gz
+/home/user/.ssh/id_rsa
+/home/user/.ssh/id_dsa

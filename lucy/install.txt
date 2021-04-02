@@ -1,0 +1,28 @@
+Install Tor
+==========
+sudo apt install tor
+sudo service tor status
+sudo service tor start
+sudo service tor stop
+
+Configure Tor Password
+======================
+tor --hash-password MyPassword
+16:120903B877BA7CDA60565E99E7BB515A9AE71133B3D01CECE7747AD0DA
+
+sudo nano /etc/tor/torrc
+
+Add following (replace example hash with your hash):
+HashedControlPassword 16:120903B877BA7CDA60565E99E7BB515A9AE71133B3D01CECE7747AD0DA
+ControlPort 9051
+
+Install additional modules
+==========================
+sudo apt install python3-pip
+pip3 install stem
+pip3 install requests
+pip3 install pysocks
+
+Run with "python3 lucy.py"
+
+Tested on LUbuntu 20.04.2 x64 with Python 3.8.5

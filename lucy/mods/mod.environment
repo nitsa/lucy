@@ -1,0 +1,17 @@
+/etc/screenrc
+/etc/apache2/envvars
+/etc/bash.bashrc
+/etc/bashrc
+/etc/profile
+/etc/security/environ
+/etc/timezone
+/etc/environment
+/proc/self/cmdline
+/proc/self/cwd
+/proc/self/environ
+/proc/self/mounts
+/proc/self/mem
+/proc/self/maps
+/proc/self/stat
+/proc/self/status
+/proc/self/cgroup
