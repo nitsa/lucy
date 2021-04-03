@@ -1,11 +1,11 @@
 # Introduction
-Lucy is a pentesting tool for information collection using an existing arbitrary file download vulnerability.
+Lucy is a pentesting script for information collection using an existing arbitrary file download vulnerability.
 
 # Installation
 Please read install.txt for prerequisites and how to run.
 
 # Useful information
-Tool uses Tor and a list of pre-defined user agents to set up identity. User agents are in ./templates/template.useragent file. Identity will change after 50 to 100 requests by default. You may change these limits by modifying rnd_min, rnd_max values in lucy.py. You may change sleep value between requests by modifying sleep_req value, in case of multiple requests. Files to be scanned are grouped by functionality (eg. os, network, processes) and are under ./mods folder. Script ./various/usergen.py may use ./templates/template.userprofile with one more file to create a list of user profile files to scan. Target url should be in uri file, please check the example uri file. Tool saves collected information under ./downloads folder.
+Script uses Tor and a list of pre-defined user agents to set up identity. User agents are in /templates/template.useragent file. Identity will change after 50 to 100 requests by default. You may change these limits by modifying rnd_min, rnd_max values in lucy.py. You may change sleep value between requests by modifying sleep_req value, in case of multiple requests. Files to be scanned are grouped by functionality (eg. os, network, processes) and are under /mods folder. Script /various/usergen.py may use /templates/template.userprofile with one more file to create a list of user profile files to scan. Target url should be in uri file, please check the example uri file. Tool saves collected information under /downloads folder.
 
 # Feedback
 Code and file lists can always be improved. Feel free to contact me should you have ideas, suggestions or comments for improvement.
