@@ -1,0 +1,11 @@
+/etc/hostname
+/etc/inittab
+/etc/motd
+/etc/printcap
+/proc/cpuinfo
+/proc/devices
+/proc/interrupts
+/proc/ioports
+/proc/meminfo
+/proc/stat
+/proc/swaps

@@ -1,0 +1,17 @@
+/etc/apache2/envvars
+/etc/bash.bashrc
+/etc/bashrc
+/etc/environment
+/etc/profile
+/etc/screenrc
+/etc/security/environ
+/etc/timezone
+/proc/self/cgroup
+/proc/self/cmdline
+/proc/self/cwd
+/proc/self/environ
+/proc/self/maps
+/proc/self/mem
+/proc/self/mounts
+/proc/self/stat
+/proc/self/status

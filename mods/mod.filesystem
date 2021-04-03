@@ -1,0 +1,6 @@
+/boot/grub/menu.lst
+/etc/default/grub
+/etc/fstab
+/etc/mtab
+/proc/filesystems
+/proc/mounts
